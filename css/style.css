@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+        url('../fonts/raleway-regular-webfont.woff') format('woff'),
+        url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'ralewayregular', sans-serif!important;
+}
+main {
+	background-color: black;
+}
+
+.navbar {
+    margin-bottom: 0px!important;
+}
+.navbar-default {
+    background-color: #000!important;
+    border-color: #000!important;
+}
+.navbar-nav {
+    float: right!important;
+}
+.dark-bg {
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+.rules-bg {
+    background: url('../images/rules-bg.jpg');
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+.header-bg {
+    background: url('../images/DragonBallSuper.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 420px 0;
+}
+.header-slogan {
+    font-size: 39px;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+.header-sub-slogan {
+    font-size: 23px;
+    color: #000;
+    text-align: center;
+}
+.logo {
+    width: 130px;
+    margin-top: -7px;
+}
+.shot-slogan {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+}
+.shot-sub-slogan {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.rules-slogan {
+    font-weight: 700;
+    font-size: 29px;
+}
+.rules-desc {
+    font-size: 16px;
+}
+.imp-shape-container {
+    border: 3px #e4c515 solid;
+    cursor:crosshair!important;
+}
+div#rect-1525, div#rect-5816, div#rect-9984 {
+    cursor:crosshair!important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff!important;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #E4C515!important;
+}
+footer {
+    padding: 0px 0;
+    background: #000;
+}
+footer p {
+    color: #fff;
+    margin-left: 10px;
+}
+.logo-footer {
+    float: right;
+    width: 270px;
+}
+.gif-how {
+    margin: 0 auto;
+    display: block;
+}
+
+.modal-content a {
+    color: #9e0000!important;
+}
+
+#shot p {
+	font-size: 20px;
+	color: #E4C515
+	
+}
+
+div div div span {
+	top: 25%;
+	right: 20%;
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+	
+}
+
+
+.gitCristi {
+	width: -webkit-fill-available;
+}
+
+.goldBorder {
+	border: solid 5px #e4c52f;
+	background-color: #e4c52f;
+
+}
+
+.pr50 {
+	width: 50%;
+	margin: auto;
+}
+
+@media screen and (max-width: 800px) { 
+    .header-bg {
+        padding: 90px 0;
+    }
+    .dark-bg {
+        background-size: auto;
+    }
+    .shot-sub-slogan {
+        margin-bottom: 25px;
+    }
+    .gif-how {
+        margin-top: 30px;
+    }
+    .rules-bg {
+        background-size: auto;
+    }
+}
+
+@media screen and (min-width: 681px) {
+	.header-bg {
+		padding: 415px 0;
+	}
+}
+
+@media screen and (max-width: 680px) { 
+    .header-bg {
+        padding: 30px 0;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .logo-footer {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 420px) { 
+    .header-slogan {
+        font-size: 24px;
+    }
+    .header-sub-slogan {
+        font-size: 20px;
+    }
+}
+
+.aboutMe {
+	width: 103%;
+}
+
+@font-face {
+  font-family: 'DIGITAL';
+  src: url('https://cssdeck.com/uploads/resources/fonts/digii/DS-DIGII.TTF');
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(#000, #555);
+}
+
+.digital-clock {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 60px;
+  color: #ffffff;
+  text-align: center;
+  font: 50px/60px 'DIGITAL', Helvetica;
+  background: black;
+}
+
+* {box-sizing: border-box}
+
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
